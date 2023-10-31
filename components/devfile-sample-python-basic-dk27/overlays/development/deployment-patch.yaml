@@ -1,0 +1,17 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  creationTimestamp: null
+  name: devfile-sample-python-basic-dk27
+spec:
+  selector: {}
+  strategy: {}
+  template:
+    metadata:
+      creationTimestamp: null
+    spec:
+      containers:
+      - image: quay.io/redhat-appstudio-qe/build-e2e-ycbt-tenant/test-app-nsgf/devfile-sample-python-basic-dk27@sha256:abb5e7602e07d84bd266bb9c3be15f339f620de664c6798f3019632c287ceba0
+        name: my-python
+        resources: {}
+status: {}
