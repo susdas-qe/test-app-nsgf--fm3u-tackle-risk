@@ -25,7 +25,7 @@ spec:
         app.kubernetes.io/instance: devfile-sample-python-basic-dk27
     spec:
       containers:
-      - image: python-image:latest
+      - image: quay.io/redhat-appstudio-qe/build-e2e-ycbt-tenant/test-app-nsgf/devfile-sample-python-basic-dk27@sha256:abb5e7602e07d84bd266bb9c3be15f339f620de664c6798f3019632c287ceba0
         name: my-python
         ports:
         - containerPort: 8081
